@@ -52,7 +52,7 @@ System:
 - コード中の`**user**`はユーザー名に置換してください
 
 ## 再インストール時のbashスクリプト
-```bash: re-install_Flatpak_apps_and_set_permissions.sh
+```bash
 #!/bin/bash
 
 # アプリケーションID
@@ -156,9 +156,6 @@ flatpak override --user --talk-name=org.freedesktop.IBus $KDENLIVE_APP_ID
 flatpak override --user --env=QT_IM_MODULE=ibus $KDENLIVE_APP_ID
 flatpak override --user --env=GTK_IM_MODULE=ibus $KDENLIVE_APP_ID
 flatpak override --user --env=XMODIFIERS=@im=ibus $KDENLIVE_APP_ID
-QT_IM_MODULE=ibus
-GTK_IM_MODULE=ibus
-XMODIFIERS=@im=ibus
 ```
 #### 上書きした権限の詳細
 これらは基本的に以下のコマンドラインで得られます。
