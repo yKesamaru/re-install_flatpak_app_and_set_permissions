@@ -17,7 +17,7 @@ OSの再インストール時に使い慣れた環境を自動で再現するス
 
 先述の投稿にある`int.sh`から呼び出すFlatpakアプリケーション用のスクリプト`re-install_Flatpak_apps_and_set_permissions.sh`を紹介します。
 
-![](assets/eye-catch.webp)
+![](https://raw.githubusercontent.com/yKesamaru/re-install_flatpak_app_and_set_permissions/master/assets/eye-catch.webp)
 
 1. [Flatpakアプリケーション：再インストール時の便利なスクリプト](#flatpakアプリケーション再インストール時の便利なスクリプト)
    1. [はじめに](#はじめに)
